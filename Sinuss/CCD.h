@@ -29,7 +29,7 @@
 	//_CCD_SINGLEFRAME
 	//IFDEF:	The update function will only be called once.
 	//IFNDEF:	The update function will be called every form update.
-	#define _CCD_SINGLEFRAME	
+	#define _CCD_SINGLEFRAME_	
 
 	//_CCD_SHOWCONSOL
 	//IFDEF:	The console will appear.
@@ -37,7 +37,7 @@
 	#define _CCD_SHOWCONSOL		
 
 //INFO:		This is how many pixels are used to draw lines. Lower is better, but slower.
-#define _CCD_QUALITY 0.01f
+#define _CCD_QUALITY 0.005f
 
 //INFO:		This is the grayscale value which will be used for initializing.
 #define _CCD_BACKCOLOR 33
