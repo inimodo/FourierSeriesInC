@@ -1,1 +1,1 @@
-# Sinuss-Sinut
+# Fourier Series Simulation
